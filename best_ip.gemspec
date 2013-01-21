@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = BestIp::VERSION
   gem.authors       = ["mj"]
   gem.email         = ["tywf91@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{用ip确定用户位置}
+  gem.summary       = %q{用ip确定用户位置}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
