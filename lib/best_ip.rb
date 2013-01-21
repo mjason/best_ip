@@ -2,7 +2,7 @@ require "best_ip/version"
 
 module BestIp
   class IpSearch
-    def initialize(file='lib/qqwry.dat')
+    def initialize(file='lib/ipdate.dat')
       filename = file
       @file = File.open(filename,"r")
       @index_first,@index_last  = @file.read(8).unpack('L2')
